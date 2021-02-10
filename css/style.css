@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*,
+*:after,
+*:before{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:'Montserrat', sans-serif;
+    font-size: 14px;
+}
+/********header*******/
+.box{
+    background-color: #eff0f2;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 1fr 1fr;
+    grid-template-rows:repeat(4, 2fr);
+    min-height: 930px;
+    align-items: center;
+    justify-content: center;
+} 
+
+
+.logo{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding-left: 150px;
+} 
+
+.logo-img{
+    display: block;
+    border: 5px solid black;
+}
+
+.menue{
+    grid-column: 5/6;
+    grid-row: 1/2;
+    padding-right: 150px;
+    
+} 
+
+.title{
+    display: block;
+    grid-column: 1/-1;
+    grid-row: 2/4;
+    font-size: 45px;
+    color: #505050;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+} 
+
+.colotext{
+    background-color: #76f4ea;
+}
+
+.coloragency{
+    background-color: #76f4ea;
+    
+}
+
+.btn{
+    grid-column: 2/4;
+    grid-row: 3/5;
+    border: 3px solid #505050 ;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #000000;
+    font-weight: 400;  
+    max-width: 250px; 
+    padding: 18px 46px;
+    justify-self: center;
+
+    } 
+.btn-contact{
+    text-decoration: none;
+}
+
+/***********about us***/
+
+.abous__us{
+    background-color: #f8fafa;
+} 
+
+.about-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10%;
+    padding-bottom: 12%;
+} 
+
+.title__info{
+    font-size: 38px;
+    letter-spacing: 2px;
+    color: #000000;
+    font-weight: 700; 
+}
+
+.subtitle__info{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    color: #000000;
+    font-weight: 400;
+}
+
+
+
+
+
+
+.wraper 
+
+.about__img 
+
+.about__info 
+
+.info__title 
+
+.info__subtitle 
