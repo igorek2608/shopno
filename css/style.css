@@ -21,9 +21,10 @@ body{
     display: grid;
     grid-template-columns: 2fr 2fr 2fr 1fr 1fr;
     grid-template-rows:repeat(4, 2fr);
-    min-height: 930px;
+    max-height: 930px;
     align-items: center;
     justify-content: center;
+    padding-bottom: 5%;
 } 
 
 
@@ -44,6 +45,16 @@ body{
     padding-right: 150px;
     
 } 
+
+.glass{
+    display: grid;
+    grid-column: 4/5;
+    grid-row: 4/5;
+    align-self: start;
+    
+}
+
+
 
 .title{
     display: block;
@@ -88,6 +99,7 @@ body{
 
 .abous__us{
     background-color: #f8fafa;
+    max-height: 990px;
 } 
 
 .about-title{
@@ -96,7 +108,7 @@ body{
     align-items: center;
     flex-direction: column;
     padding-top: 10%;
-    padding-bottom: 12%;
+    padding-bottom: 10%;
 } 
 
 .title__info{
@@ -104,6 +116,7 @@ body{
     letter-spacing: 2px;
     color: #000000;
     font-weight: 700; 
+    text-transform: uppercase;
 }
 
 .subtitle__info{
@@ -114,17 +127,99 @@ body{
     font-weight: 400;
 }
 
+.wraper{
+    display: grid;
+    grid-template-columns:  minmax(auto, 480px) minmax(auto, 480px);
+    grid-template-rows: 1fr;
+    padding: 0% 5%;
+    column-gap: 2% ;
+    position: relative;
+    justify-content: space-around;
+} 
+
+.about__img{
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 1/1;
+    align-items: center;
+    justify-items: center;
+    overflow: hidden;
+    
+} 
+
+.about__info{
+    
+    grid-column: 2/3;
+    grid-row: 1/1;
+    
+
+} 
+.info-img{
+    display: block;
+    position: absolute;
+    left: 14%;
+    top: -12%;
+    
+}
+.info__title{
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    color: #000000;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 2%;
+} 
+
+.info__title p{
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-family:"Raleway";
+    text-transform: none;
+    padding: 2% 0;
+}
+
+.info__subtitle{
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-weight: 700;
+    padding-bottom: 2%;
+    text-transform: uppercase;
+}
+
+.info__subtitle p{
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-family:"Raleway";
+    text-transform: none;
+}
+
+.dot{
+    display: block;
+    padding-top:20% ;
+    overflow: hidden;
+    padding-left: 8%;
+}
+    
+/*******fetured works********/
+
+.works{
+    padding-bottom: 10%;
+}
 
 
 
 
 
-.wraper 
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(2,auto);
+    border: 2px solid red;
+    justify-content: center;
+    gap: 15px;
+}
 
-.about__img 
-
-.about__info 
-
-.info__title 
-
-.info__subtitle 
