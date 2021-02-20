@@ -258,7 +258,7 @@ h1,h2,h3,h4,h5,h6
 }
 
 .app{
-    padding: 14rem 4rem 4rem 3rem; 
+    padding: 10rem 4rem 4rem 3rem; 
 }
 
 
@@ -269,7 +269,7 @@ h1,h2,h3,h4,h5,h6
     letter-spacing: 2.8125px;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 } 
 
 .app__title{
@@ -284,7 +284,7 @@ h1,h2,h3,h4,h5,h6
     font-size: 18px;
     line-height: 32px;
     color: #E4E4E4;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 .btn-orange--white{
@@ -293,3 +293,60 @@ h1,h2,h3,h4,h5,h6
 }
 
 
+/*********users******/
+
+.users{
+    background:#E3EEF8; 
+    padding: 8rem;
+
+}
+
+.users-wrapper{
+    max-width: 1110px;
+    margin: 0 auto;
+    display:flex;
+    justify-content: space-between;
+    border-bottom:1px solid white;
+    padding-bottom: 4rem;
+}
+
+.mobile--bitmap:hover{
+    transform: none;
+}
+
+.block__item-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.block__item--vertical{
+    display: flex;
+    flex-direction: column;
+}
+
+.app--padding{
+    padding-top:0;
+    padding-right: 6rem;
+    padding-left: 0rem;
+}
+
+.app-desing--blue{
+    color:#258AFF;
+}
+
+.app__title--black{
+    color:#1F1F1F;
+    padding-right: 7rem;
+    margin-bottom: 2rem;
+}
+
+.app-sutitle--grey{
+    color:#666666;
+    padding-right: 7rem;
+    margin-bottom:9rem;
+}
+
+.block__text--small{
+    padding-right: 3rem;
+}
+
+/********customers*******/
