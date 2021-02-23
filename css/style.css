@@ -691,3 +691,75 @@ h1,h2,h3,h4,h5,h6
     background-color:rgb(25, 0, 255);
     color: tomato;
 }
+
+
+/********footer***********/
+
+.footer{
+    background: #E5E5E5;
+    padding:5rem;
+    background: #E3EEF8;
+} 
+
+.footer__wrapper{
+    max-width: 67.375rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+
+.logo--footer{
+    margin-bottom: 2rem;
+} 
+
+
+.social__icons{
+    margin-top: 2rem;
+    
+} 
+
+.social__icons img:nth-child(1){
+    padding-right: 1rem;
+}
+
+.social__icons img:nth-child(2){
+    padding-right: 1rem;
+}
+
+.footer__support{
+    display: flex;
+    justify-content: space-between;
+    width:100% ;
+}
+
+.footer__text{
+    font-size: 1rem;
+    line-height: 1.75rem;
+    letter-spacing: -0.4px;
+    color: #666666;
+    padding-right: 15rem;
+
+}
+
+.support__item p:nth-child(1){
+    font-weight: bold;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    letter-spacing: -0.4px;
+    color: #666666;
+    margin-bottom: 2rem;
+}
+
+.support__item p:nth-child(n+2){
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 40px;
+    letter-spacing: -0.4px;
+    color: #1F1F1F;
+
+}
+
+
+
