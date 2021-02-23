@@ -342,12 +342,19 @@ h1,h2,h3,h4,h5,h6
 .app-sutitle--grey{
     color:#666666;
     padding-right: 7rem;
-    margin-bottom:9rem;
+    margin-bottom:6rem;
 }
 
 .block__text--small{
     padding-right: 3rem;
 }
+
+.block__img{
+    margin-bottom: 3rem;
+}
+
+
+
 
 /********story*******/
 
@@ -471,4 +478,216 @@ h1,h2,h3,h4,h5,h6
 .icons-img img{
     mix-blend-mode: luminosity;
     opacity: 0.5;
+}
+
+
+/*******service*********/
+
+.service{
+    background: #192F48;
+    background-blend-mode: multiply, normal;
+    padding-top: 5rem;
+    padding-bottom: 9rem;
+} 
+
+.service-wrapper{
+    max-width: 45.625rem;
+    margin: 0 auto; 
+    display: flex;
+    flex-direction: column;
+}
+
+.service__title{
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+} 
+
+.service__title p{
+    font-weight: bold;
+    font-size: 0.938rem;
+    line-height: 1.125rem;
+    text-align: center;
+    letter-spacing: 2.8125px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 3rem;
+}
+
+.service__title h4{
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 3.5rem;
+    text-align: center;
+    letter-spacing: -2.52632px;
+    color: #FFFFFF;
+}
+
+.service__block{
+    
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    
+} 
+
+.service__item{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    max-width: 21.875rem;
+    background: #2B405A;
+    border-radius: 6px;
+}
+
+.service__item--white{
+    background-color: white;
+}
+
+
+.service__text p:nth-child(1){
+    font-weight: bold;
+    font-size: 0.813rem;
+    line-height: 2rem;
+    letter-spacing: 0.433333px;
+    text-transform: uppercase;
+    color: #E5E5E5;
+    margin-bottom: 2rem;
+}
+
+.cost span:nth-child(1){
+    font-weight: bold;
+    font-size:1.875rem;
+    line-height: 2.188rem;
+    letter-spacing: -1.2px;
+    color: #FFFFFF;
+    vertical-align:top;
+}
+
+.cost span:nth-child(2){
+   
+    font-weight: bold;
+    font-size: 3.125rem;
+    line-height: 3.75rem;
+    letter-spacing: -2px;
+    color: #FFFFFF;
+   
+}
+
+.cost span:nth-child(3){
+    font-weight: bold;
+    font-size: 1.063rem;
+    line-height: 1.25rem;
+    letter-spacing: -0.68px;
+    color: #FFFFFF;
+}
+
+.service__text p:nth-child(3){
+    font-size: 0.875rem;
+    line-height: 1.438rem;
+    letter-spacing: -0.4px;
+    color: #E5E5E5;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+
+.description{
+    display: flex;
+    flex-direction: column;
+   
+} 
+
+.description__item{
+    display: flex;
+    align-items: center;
+}
+
+
+.description__img{
+    margin-right: 0.5rem;
+} 
+
+
+.description__text{
+    font-size: 1.063rem;
+    line-height: 2rem;
+    letter-spacing: -0.425px;
+    color: #FFFFFF;
+    
+}
+
+.description__text--grey{
+    color: #878B90;
+    text-decoration: line-through;
+}
+
+.btn-orange--small{
+    padding: 0.8rem 3.2rem;
+    margin-top: 2rem;
+    background:#258AFF;
+    margin-bottom: 1rem;
+}
+
+.service__item p{
+    font-size: 1rem;
+    line-height: 2rem;
+    letter-spacing: -0.4px;
+    color: #878B90;
+}
+
+.pro{
+    color: #666666;
+
+}
+
+.service__text--black p:nth-child(3){
+    color: #666666;
+}
+
+
+.cost--black span:nth-child(1){
+    color: #1F1F1F;
+}
+
+.cost--black span:nth-child(2){
+       color: #1F1F1F;
+}
+
+.cost--black span:nth-child(3){
+    color: #1F1F1F;
+}
+
+.description__text--black{
+    color: #1F1F1F;
+}
+
+.btn-orange--small--last{
+    background: #FC593B;
+}
+
+.popular__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2.7rem;
+}
+
+.popular{
+    text-decoration: none;
+    background-color: #4EAB08;
+    font-weight: bold;
+    font-size: 0.75rem;
+    line-height: 0.938rem;
+    letter-spacing: -0.514286px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding:0.5rem 1rem;
+    border-radius: 0.813rem;
+    transition: background-color 300ms ease-out, color 300ms ease-out ;
+}
+
+.popular:hover{
+    background-color:rgb(25, 0, 255);
+    color: tomato;
 }
