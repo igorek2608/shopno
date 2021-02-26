@@ -25,8 +25,9 @@ h1,h2,h3,h4,h5,h6
 
 /*********header*********/
 .box{
-    background-color: #E3EEF8;;
+    background-color: #E3EEF8;
     padding:2rem 2rem 8rem 2rem;
+    position: relative;
 }
 
 @media (max-width:991px){
@@ -139,6 +140,143 @@ h1,h2,h3,h4,h5,h6
     border-color:tomato;
     color: purple;
 }
+
+.mobile-menu{
+    width: 35px;
+    height: 35px;
+    border:2px solid #2b405a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobile-menu-inner{
+    width: 16px;
+    height: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inner__item{
+    width: 16px;
+    height: 1.2px;
+    background-color: #2b405a;
+}
+
+@media(min-width:991px){
+    .mobile-menu{
+        display: none;
+    }
+}
+/******mobile-menu***/
+.mobile-sidebar{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 350px;
+    height: 100%;
+    background-color: #fff;
+    visibility: hidden;
+}
+
+.mobile-sidebar__active{
+    visibility: visible;
+}
+
+.mobile-sidebar__hidden{
+    visibility: hidden;
+}
+
+
+
+
+
+.sidebar__close{
+    width: 50px;
+    height: 50px;
+    background-color:#50e3c2;
+    position: absolute;
+    top:0;
+    right: 0;
+}
+
+
+.sidebar-image{
+    width: 100%;
+}
+
+
+
+@media(min-width:991px){
+    .mobile-sidebar{
+        display: none;
+    }
+}
+
+
+
+
+
+
+.sidebar__list{
+    list-style: none;
+}
+
+.sidebar__item{
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #ececec;
+    padding: 1rem 2rem;
+    padding-top: 3rem;
+}
+
+.sidebar__link{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: #1f1f1f;
+    line-height: 1.25rem;
+    transition: color 400ms linear;
+    cursor: pointer;
+}
+
+.sidebar__link:hover{
+    color: #258AFF;
+}
+
+
+
+.sidebar__btn{
+    padding: 1rem;
+}
+
+
+.link-sign{
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    margin-bottom: 1.5rem;
+    padding: 12px 30px;
+    background-color: rgba(80, 227, 194, 0.14);
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 10px;
+    transition: background-color 450ms linear, color 450ms linear;   
+    color: black;
+}
+
+.link-sign:hover{
+    background-color: rgb(17, 0, 255);
+    color: rgb(247, 0, 255);
+}
+
+
+
+.link-sign--green{
+    background-color: #50e3c2;
+}
+
 
 
 
