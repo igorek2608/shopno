@@ -5,6 +5,6 @@ $('.mobile-menu-inner').click(function(e) {
 });
 $('.sidebar__close').click(function(e) {
     e.preventDefault();
-    $('.mobile-sidebar').toggleClass('mobile-sidebar__hidden');
+    $('.mobile-sidebar').removeClass('mobile-sidebar__active');
     
 });
